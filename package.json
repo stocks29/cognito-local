@@ -21,7 +21,7 @@
     "test:watch": "jest --watch",
     "semantic-release": "semantic-release",
     "prepare": "husky install",
-    "postinstall": "npm run build"
+    "prepack": "npm run build"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.0",
